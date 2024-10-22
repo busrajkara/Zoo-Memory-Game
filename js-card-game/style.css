@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #87CEEB; /* Sky blue color */
-    background-image: url('image.png'); /* Add the image as the background */
+    background-image: url('image.png'); /* tekrar bak Add the image as the background */ 
     background-size: cover; /* Ensure the image covers the entire background */
     background-position: center; /* Center the background image */
     display: flex;
