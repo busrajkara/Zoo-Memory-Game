@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal Memory Game</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hayvan Hafıza Oyunu</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Zoo Memory Game</h1>
+<h1 id="game-title">Hayvan Hafıza Oyunu</h1>
 
-    <div class="score-board">
-        Score: <span id="score">0</span> | 
-        <span id="moves">Moves: 0</span> | 
-        <span id="timer">Time: 0s</span>
-    </div>
-    
-    <div class="score-board">
-        Score: <span id="score">0</span>
-    </div>
-    <div class="game-board" id="game-board">
-        <!-- Kartlar buraya JavaScript ile eklenecek -->
-    </div>
+<div class="score-board">
+    <span id="score-label">Skor: <span id="score">0</span></span> |
+    <span id="moves">Hamle: 0</span> |
+    <span id="timer">Süre: 0s</span>
+</div>
 
-    <script src="scripts.js"></script>
+<div class="game-board" id="game-board"></div>
+
+<div class="language-switcher">
+    <button id="lang-tr">Türkçe</button>
+    <button id="lang-en">English</button>
+</div>
+
+<button id="restart-btn">Oyunu Yeniden Başlat</button>
+
+<script src="scripts.js"></script>
 </body>
 </html>
