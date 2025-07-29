@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f8ff; /* Açık mavi arka plan */
-    color: #2e3b2f; /* Kahverengi tonlarında yazı rengi */
+    background-color: #38a4b1;
+    color: #ffffff;
 }
 
 h1 {
-    color: #2e3b2f; /* Başlık için kahverengi tonları */
+    color: #ffffff;
     font-size: 2rem;
     margin-top: 20px;
 }
@@ -17,6 +17,7 @@ h1 {
     gap: 10px;
     justify-content: center;
     margin-top: 20px;
+    background-color: rgba(128, 196, 180, 0.59);
 }
 
 .card {
@@ -50,21 +51,22 @@ h1 {
     border: 2px solid #4d9c7f;
     padding: 10px 15px;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 0 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .language-switcher button:hover {
-    background-color: #4d9c7f;
+    background-color: white;
+    color: #4d9c7f;
 }
 
 #restart-btn {
     padding: 10px 20px;
     font-size: 1.2rem;
     border-radius: 8px;
-    background-color: #4CAF50;
+    background-color: #38a4b1;
     color: white;
     border: none;
     cursor: pointer;
@@ -73,7 +75,7 @@ h1 {
 }
 
 #restart-btn:hover {
-    background-color: #45a049;
+    background-color: cadetblue;
 }
 
 .score-board {
@@ -87,7 +89,7 @@ h1 {
 }
 
 #timer {
-    color: #2e3b2f;
+    color: #4d9c7f;
 }
 
 #moves {
